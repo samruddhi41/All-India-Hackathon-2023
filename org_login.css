@@ -1,0 +1,535 @@
+*{
+    background-color: #ECF8E5;
+
+}
+
+.org_login_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.org_left{
+    position: relative;
+    width: 650px;
+    height: 400px;
+    background:transparent;
+    border: 6px solid #FFFFFF;
+    border-radius: 20px;
+    top: 130px;
+    padding-bottom: 50px;
+    right: 550px;
+    backdrop-filter: blur(20px);
+    
+}
+
+.form_item{
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.form_item form{
+    height: 380px;
+}
+.org_login_grid h2{
+    position: relative;
+    display: flex;
+    height: 10px;
+    left: 400px;
+    top: 40px;
+    font-size: 35px;
+   margin-bottom: 0;
+   color: #347571;
+}
+.pass_word{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+    right: 150px;
+}
+
+.user_signup{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+    right: 150px;
+}
+.org_name{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+    left: 140px;
+    bottom: 204px;
+}
+
+.stu_name{
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    left: 130px;
+    bottom: 183.5px;
+    height: 80px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.tech_skills{
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    left: 130px;
+    bottom: 183.5px;
+    height: 100px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+.con_details{
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    left: 130px;
+    bottom: 160px;
+    height: 80px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+.experience{
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+.pass_word label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    
+}
+.user_signup label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    
+}
+.org_name label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    
+}
+.stu_name label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.tech_skills label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    
+}
+
+.con_details label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.experience label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.pass_word input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.user_signup input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.org_name input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.stu_name input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+ 
+.tech_skills input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.con_details input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.experience input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.about_org{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    left: 140px;
+    bottom: 200px;
+}
+
+.about_org label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color:solid black;
+    font-weight: 500;
+    pointer-events: none; 
+    
+}
+
+
+.about_org input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+}
+.about_org input:focus~label,
+.about_org input:valid~label{
+    top:-5px;
+}
+.contact_no{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    left: 140px;
+    bottom: 200px;
+}
+
+.contact_no label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: solid black;
+    font-weight: 500;
+    pointer-events: none;
+    
+}
+
+.contact_no input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.user_profile img{
+    width: 250px;
+    position: relative;
+    /* top: 170px;
+    left: 100px; */
+}
+
+.user_profile{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    background: aliceblue;
+    border: 1px solid gray;
+}
+
+#file{
+    display: none;
+}
+#uploadBtn{ 
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 83%;
+    transform: translateX(-50%);
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.login_opt{
+    position: relative;
+    left: 120px;
+    width: 200px;
+    bottom: 20px;
+}
+
+.login_opt a{
+    text-decoration: none;
+    background: none;
+    color:#347571;
+    font-size: larger;
+    font-weight:bolder; 
+}
+
+.login_opt_stu{
+    position: relative;
+    top: 80px;
+    left: 230px;
+    width: 200px;
+}
+
+.login_opt_org{
+    position: relative;
+    top: 80px;
+    left: 230px;
+    width: 200px;
+}
+
+.login_opt_org a{
+    text-decoration: none;
+    background: none;
+    color:#347571;
+    font-size: larger;
+    font-weight:bolder; 
+}
+
+.login_opt_stu a{
+    text-decoration: none;
+    background: none;
+    color:#347571;
+    font-size: larger;
+    font-weight:bolder; 
+}
+
+.org_login{
+    position: relative;
+    width: 400px;
+    height: 460px;
+    background:transparent;
+    border: 6px solid #FFFFFF;
+    border-radius: 20px;
+    top: 100px;
+    left:430px;
+    backdrop-filter: blur(20px);
+}
+
+.stu_login{
+    position: relative;
+    width: 400px;
+    height: 460px;
+    background:transparent;
+    border: 6px solid #FFFFFF;
+    border-radius: 20px;
+    top: 100px;
+    left:430px;
+    backdrop-filter: blur(20px);
+}
+.org_login h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #347571;
+   margin-bottom: 0;
+}
+
+.stu_login h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+   margin-bottom: 0;
+   color: #347571;
+}
+.stu_login form{
+    position: relative;
+    bottom: 75px;
+    height: 250px;
+}
+.username{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+.password{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+.username label{
+    position: absolute;
+    top: 60%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.password label{
+    position: absolute;
+    top: 60%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.username input{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    top: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.password input{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    top: 48px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.forget_pass{
+    display:flex;
+    position: relative;
+    align-items: center;
+    bottom: 65px;
+    left:110px;
+    width: 50%;
+}
+
+.forget_pass a{
+    text-decoration: none;
+    color: #347571;
+}
+
+.signup_btn{
+    position: relative;
+    left: 1150px;
+    bottom: 430px;
+    width: 100px;
+}
+
+.signup_btn button{
+    height: 50px;
+    width: 130px;
+    background-color: #347571;
+    color: #FFFFFF;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
