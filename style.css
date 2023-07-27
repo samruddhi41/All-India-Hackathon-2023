@@ -1,0 +1,21 @@
+/** box1 **/
+.nav-input {
+    background-color: #b8e28a;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: black;
+}
+
+/** box2 **/
+.nav-ip {
+    background-color: #dcf4ce;
+    width: 300px;
+    height: 300px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: top;
+}
+
