@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>organization signup</title>
+    <link rel="stylesheet" href="org_login.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <div class="org_login_grid">
+        <h2>Signup</h2>
+        <div class="org_left">
+            
+            <div class="form_item">
+            <form>
+                <div class="user_signup">
+                    <label for="username">Username</label><br>
+                    <input type="text"id="user_signup" name="user_signup"><br>
+                </div>
+                <div class="pass_word">
+                    <label for="organization_name">Password</label><br>
+                    <input type="password"id="pass_word" name="pass_word"><br>
+                </div>
+                <div class="org_name">
+                    <label for="organization_name">Organization Name</label><br>
+                    <input type="text"id="org_name" name="org_name"><br>
+                </div>
+                <div class="about_org">
+                    <label for="about_org">About Organization</label><br>
+                    <input type="text"id="about_org" name="about_org"><br>
+                </div>
+                <div class="contact_no">
+                    <label for="contact_no">Contact Details</label><br>
+                    <input type="tel" name="contact_no" id="contact_no"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+            </form>
+        </div>
+        <div class="login_opt_org">
+            Already Member?
+            <a href="http://127.0.0.1:5501/org_login.html">Login</a>
+        </div>
+        </div>
+
+        <div class="org_right">
+            <div class="signup_btn">
+                <button>Signup
+                </button>
+            </div>
+            <div class="user_profile">
+                <img src="businessman.png" alt="img" id="photo">
+                <input type="file" id="file">
+                <label for="file" id="uploadBtn">Choose Photo</label>
+            </div>
+            <script src="org_login.js"></script>
+        </div>
+    </div>
+</body>
+</html>
