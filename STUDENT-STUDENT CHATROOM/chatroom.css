@@ -1,0 +1,130 @@
+/* Reset default margin and padding for elements */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and center the chatroom content */
+body {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+/* Container for the headings */
+.heading {
+    background-color: #e5f00c;
+    display: flex;
+    overflow: hidden;
+    padding: 20px 10px;
+
+}
+.heading-right{
+    margin-left:100px ;
+}
+    
+
+/* Styling for the main heading (h1) */
+h1 {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* Styling for the subheading (h2) */
+h2 {
+    font-size: 24px;
+    color: #dd2db1;
+    margin-bottom: 5px;
+}
+
+/* Styling for the sub-subheading (h3) */
+h3 {
+    font-size: 18px;
+    color: #d34913;
+}
+/* Chatroom container */
+#chatroom {
+    border: 1px solid #ed5a1b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Styling for chat messages */
+#chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+/* Styling for individual messages */
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #beefa1;
+}
+
+/* Styling for user messages */
+.user-message {
+    background-color: #c8afaf;
+    color: #000000;
+    text-align: right;
+}
+
+/* Styling for other users' messages */
+.other-message {
+    background-color: #84da7a;
+    color: #000;
+    text-align: left;
+    margin-top: 20dp;
+}
+
+/* Styling for user list */
+
+
+/* Styling for message input and send button */
+#message-input {
+     width:80%;
+    height: 50px;
+     padding: 5px;
+     background-color: #c0b4b4;
+    box-sizing: border-box;
+    border: 1px  #040404;
+    border-radius: 5px 0 0 5px;
+  
+}
+
+
+
+button {
+    height: 50px;
+    
+    border: none;
+    background-color: #0a15b7;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a15b7;
+}
+
+#user-list {
+    box-sizing: border-box;
+    border: #201f1f;
+ 
+    border-radius: 5px 0 0 5px;
+     display: flex;
+     margin: 10px 0;
+ margin-top: 10px;
+
+ color: #555;
+}
